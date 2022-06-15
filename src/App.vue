@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
-import TheWelcome from "./components/TheWelcome.vue";
+//import HelloWorld from "./components/HelloWorld.vue";
+//import TheWelcome from "./components/TheWelcome.vue";
 </script>
 
 <template>
@@ -8,10 +8,11 @@ import TheWelcome from "./components/TheWelcome.vue";
     <img
       alt="Vue logo"
       class="logo"
-      src="./assets/logo.svg"
+      src="https://i.pinimg.com/originals/40/1a/57/401a577ead6776c2101d0f78acd90681.gif"
       width="125"
       height="125"
     />
+    <p class="morbin">Morbin!</p>
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
@@ -26,12 +27,19 @@ import TheWelcome from "./components/TheWelcome.vue";
 <style>
 @import "./assets/base.css";
 
+body {
+  background-color: #181a1b;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
 
   font-weight: normal;
+}
+.morbin {
+  color: crimson;
 }
 
 header {
